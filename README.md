@@ -5,3 +5,5 @@
 
  # correr aplicação
  dotnet run
+
+ dotnet watch run
