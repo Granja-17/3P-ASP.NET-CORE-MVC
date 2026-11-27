@@ -9,6 +9,6 @@ namespace EmployeesManagement.Data
     {
     }
     pubic DbSet<Employee> Employee { get; set; }
-    pubic DbSet<Employee> Departments { get; set; }
+    pubic DbSet<Department> Departments { get; set; }
     }l
 }
