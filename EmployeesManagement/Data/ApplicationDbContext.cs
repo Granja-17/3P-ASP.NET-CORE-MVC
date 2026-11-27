@@ -8,6 +8,7 @@ namespace EmployeesManagement.Data
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
     {
     }
-    public DbSet<Employee> Employee { get; set; }
-    }
+    pubic DbSet<Employee> Employee { get; set; }
+    pubic DbSet<Employee> Departments { get; set; }
+    }l
 }
