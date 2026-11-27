@@ -10,4 +10,5 @@
 
  # Comandos para migrar o department
  dotnet ef migrations add CriarTabelaDepartment
+ 
  dotnet ef database update
