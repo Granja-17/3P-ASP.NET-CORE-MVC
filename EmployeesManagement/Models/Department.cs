@@ -11,7 +11,7 @@ namespace EmployeesManagement.Models
       
     [Required(ErrorMessage = "A localização é obrigatória.")]
     [StringLength(250)]
-    public string Localização { get; set; } = string.Empty;
+    public string Localizacao { get; set; } = string.Empty;
       
     public bool Ativo { get; set; } = True
     
